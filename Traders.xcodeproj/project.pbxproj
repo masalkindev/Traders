@@ -25,6 +25,11 @@
 		51FDE2712B0BF73E006C2E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2702B0BF73E006C2E5D /* AppDelegate.swift */; };
 		51FDE2782B0BFB7F006C2E5D /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2772B0BFB7F006C2E5D /* TopView.swift */; };
 		51FDE27C2B0BFFBE006C2E5D /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE27B2B0BFFBE006C2E5D /* TradeView.swift */; };
+		51FDE2852B0C0569006C2E5D /* TraderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2842B0C0569006C2E5D /* TraderModel.swift */; };
+		51FDE2872B0C076C006C2E5D /* TraderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2862B0C076C006C2E5D /* TraderRowView.swift */; };
+		51FDE28A2B0C07AF006C2E5D /* TraderListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2892B0C07AF006C2E5D /* TraderListHeaderView.swift */; };
+		51FDE28C2B0C07C5006C2E5D /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE28B2B0C07C5006C2E5D /* TopViewModel.swift */; };
+		51FDE28E2B0C1C5B006C2E5D /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE28D2B0C1C5B006C2E5D /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		51FDE2732B0BF9B8006C2E5D /* Traders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traders.entitlements; sourceTree = "<group>"; };
 		51FDE2772B0BFB7F006C2E5D /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		51FDE27B2B0BFFBE006C2E5D /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		51FDE2842B0C0569006C2E5D /* TraderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderModel.swift; sourceTree = "<group>"; };
+		51FDE2862B0C076C006C2E5D /* TraderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderRowView.swift; sourceTree = "<group>"; };
+		51FDE2892B0C07AF006C2E5D /* TraderListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraderListHeaderView.swift; sourceTree = "<group>"; };
+		51FDE28B2B0C07C5006C2E5D /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		51FDE28D2B0C1C5B006C2E5D /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				51FDE2732B0BF9B8006C2E5D /* Traders.entitlements */,
+				51FDE2822B0C0546006C2E5D /* Models */,
 				51FDE2642B0BF02F006C2E5D /* Managers */,
 				515199A02B0BC6E5008538FB /* Extensions */,
 				515199AC2B0BCB87008538FB /* UI */,
@@ -156,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				515199C22B0BDD3B008538FB /* RoundedProgressView.swift */,
+				51FDE28D2B0C1C5B006C2E5D /* RoundedCorners.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,7 +191,10 @@
 		51FDE2752B0BFB4B006C2E5D /* Top */ = {
 			isa = PBXGroup;
 			children = (
+				51FDE28B2B0C07C5006C2E5D /* TopViewModel.swift */,
 				51FDE2772B0BFB7F006C2E5D /* TopView.swift */,
+				51FDE2892B0C07AF006C2E5D /* TraderListHeaderView.swift */,
+				51FDE2862B0C076C006C2E5D /* TraderRowView.swift */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -190,6 +205,14 @@
 				51FDE27B2B0BFFBE006C2E5D /* TradeView.swift */,
 			);
 			path = Trade;
+			sourceTree = "<group>";
+		};
+		51FDE2822B0C0546006C2E5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51FDE2842B0C0569006C2E5D /* TraderModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,10 +301,15 @@
 				515199A42B0BC776008538FB /* Resource+SwiftUI.swift in Sources */,
 				51FDE26C2B0BF0F1006C2E5D /* TabBarView.swift in Sources */,
 				515199822B0BC12B008538FB /* TradersApp.swift in Sources */,
+				51FDE28A2B0C07AF006C2E5D /* TraderListHeaderView.swift in Sources */,
+				51FDE2852B0C0569006C2E5D /* TraderModel.swift in Sources */,
 				51FDE27C2B0BFFBE006C2E5D /* TradeView.swift in Sources */,
+				51FDE28E2B0C1C5B006C2E5D /* RoundedCorners.swift in Sources */,
 				51FDE2682B0BF05E006C2E5D /* LoadingManager.swift in Sources */,
 				51FDE2782B0BFB7F006C2E5D /* TopView.swift in Sources */,
 				51FDE2712B0BF73E006C2E5D /* AppDelegate.swift in Sources */,
+				51FDE2872B0C076C006C2E5D /* TraderRowView.swift in Sources */,
+				51FDE28C2B0C07C5006C2E5D /* TopViewModel.swift in Sources */,
 				515199C32B0BDD3B008538FB /* RoundedProgressView.swift in Sources */,
 				515199B02B0BCDE3008538FB /* LaunchView.swift in Sources */,
 			);

@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct TopView: View {
+    
+    @StateObject var viewModel = TopViewModel()
+    
     var body: some View {
         ZStack() {
             R.color.bgMain.color
                 .edgesIgnoringSafeArea(.all)
-            VStack() {
-                Text("Top")
+            ScrollView {
+            
+                LazyVStack(spacing: 0) {
+                    TraderListHeaderView()
+                    ForEach(viewModel.traderRows) { row in
+                        TraderRowView(row: row)
+                    }
+                }
+                .padding(.vertical, 20)
+                .animation(.default)
             }
+            .padding(.horizontal, 12)
+        }
+        .onAppear {
+            viewModel.fetchTop()
         }
         .navigationTitle(R.string.localizable.top_tilte())
         .navigationBarTitleDisplayMode(.inline)

@@ -15,7 +15,7 @@ class LoadingManager: ObservableObject {
     @Published private(set) var progress: Double = 0
     @Published private(set) var loadFinished: Bool = false
     
-    var timer: Timer!
+    private var timer: Timer!
     
     func startLoad() {
         timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true, block: { [weak self] _ in

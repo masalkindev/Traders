@@ -15,7 +15,6 @@ struct TabBarView: View {
         TabView(selection: $selectedTab) {
             NavigationView {
                 TradeView()
-                    .animation(nil)
             }
             .tabItem {
                 R.image.ic_trade_tab.image
@@ -26,7 +25,6 @@ struct TabBarView: View {
             .tag(0)
             NavigationView {
                 TopView()
-                    .animation(nil)
             }
             .tabItem {
                 R.image.ic_top_tab.image

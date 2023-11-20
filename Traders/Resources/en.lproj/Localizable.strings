@@ -15,3 +15,8 @@
 
 // Top
 "top_tilte" = "TOP 10 Traders";
+"top_column_number" = "№";
+"top_column_country" = "Сountry";
+"top_column_name" = "Name";
+"top_column_deposit" = "Deposit";
+"top_column_profit" = "Profit";
