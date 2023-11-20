@@ -9,5 +9,7 @@
 		<string>Inter-Medium.ttf</string>
 		<string>Inter-SemiBold.ttf</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

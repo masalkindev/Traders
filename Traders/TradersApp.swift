@@ -9,9 +9,26 @@ import SwiftUI
 
 @main
 struct TradersApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    @StateObject var loadingManager = LoadingManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                TabBarView()
+                
+                if !loadingManager.loadFinished {
+                    LaunchView()
+                        .animation(.default)
+                        .transition(.opacity)
+                }
+            }
+            .onAppear {
+                loadingManager.startLoad()
+            }
+            .environmentObject(loadingManager)
         }
     }
 }

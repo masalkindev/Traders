@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		515199822B0BC12B008538FB /* TradersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199812B0BC12B008538FB /* TradersApp.swift */; };
-		515199842B0BC12B008538FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199832B0BC12B008538FB /* ContentView.swift */; };
 		515199862B0BC12D008538FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515199852B0BC12D008538FB /* Assets.xcassets */; };
 		515199892B0BC12D008538FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515199882B0BC12D008538FB /* Preview Assets.xcassets */; };
 		515199912B0BC338008538FB /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 515199902B0BC338008538FB /* RswiftLibrary */; };
@@ -18,12 +17,19 @@
 		5151999D2B0BC44C008538FB /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 515199992B0BC44C008538FB /* Inter-SemiBold.ttf */; };
 		515199A42B0BC776008538FB /* Resource+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199A32B0BC776008538FB /* Resource+SwiftUI.swift */; };
 		515199A92B0BC992008538FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515199AB2B0BC992008538FB /* Localizable.strings */; };
+		515199B02B0BCDE3008538FB /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199AF2B0BCDE3008538FB /* LaunchView.swift */; };
+		515199BB2B0BD4A8008538FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515199BA2B0BD4A7008538FB /* LaunchScreen.storyboard */; };
+		515199C32B0BDD3B008538FB /* RoundedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199C22B0BDD3B008538FB /* RoundedProgressView.swift */; };
+		51FDE2682B0BF05E006C2E5D /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2672B0BF05E006C2E5D /* LoadingManager.swift */; };
+		51FDE26C2B0BF0F1006C2E5D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE26B2B0BF0F1006C2E5D /* TabBarView.swift */; };
+		51FDE2712B0BF73E006C2E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2702B0BF73E006C2E5D /* AppDelegate.swift */; };
+		51FDE2782B0BFB7F006C2E5D /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2772B0BFB7F006C2E5D /* TopView.swift */; };
+		51FDE27C2B0BFFBE006C2E5D /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE27B2B0BFFBE006C2E5D /* TradeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5151997E2B0BC12B008538FB /* Traders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515199812B0BC12B008538FB /* TradersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersApp.swift; sourceTree = "<group>"; };
-		515199832B0BC12B008538FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		515199852B0BC12D008538FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515199882B0BC12D008538FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		515199962B0BC44C008538FB /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -33,6 +39,15 @@
 		5151999E2B0BC4B2008538FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		515199A32B0BC776008538FB /* Resource+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resource+SwiftUI.swift"; sourceTree = "<group>"; };
 		515199AA2B0BC992008538FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		515199AF2B0BCDE3008538FB /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		515199BA2B0BD4A7008538FB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515199C22B0BDD3B008538FB /* RoundedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedProgressView.swift; sourceTree = "<group>"; };
+		51FDE2672B0BF05E006C2E5D /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		51FDE26B2B0BF0F1006C2E5D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		51FDE2702B0BF73E006C2E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51FDE2732B0BF9B8006C2E5D /* Traders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traders.entitlements; sourceTree = "<group>"; };
+		51FDE2772B0BFB7F006C2E5D /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		51FDE27B2B0BFFBE006C2E5D /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +81,12 @@
 		515199802B0BC12B008538FB /* Traders */ = {
 			isa = PBXGroup;
 			children = (
+				51FDE2732B0BF9B8006C2E5D /* Traders.entitlements */,
+				51FDE2642B0BF02F006C2E5D /* Managers */,
 				515199A02B0BC6E5008538FB /* Extensions */,
+				515199AC2B0BCB87008538FB /* UI */,
 				515199812B0BC12B008538FB /* TradersApp.swift */,
-				515199832B0BC12B008538FB /* ContentView.swift */,
+				51FDE2702B0BF73E006C2E5D /* AppDelegate.swift */,
 				515199942B0BC3E8008538FB /* Resources */,
 				515199872B0BC12D008538FB /* Preview Content */,
 			);
@@ -111,6 +129,67 @@
 				515199A32B0BC776008538FB /* Resource+SwiftUI.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		515199AC2B0BCB87008538FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				515199BF2B0BDD06008538FB /* Components */,
+				515199AE2B0BCDCD008538FB /* Launch */,
+				51FDE26A2B0BF0AB006C2E5D /* TabBar */,
+				51FDE27A2B0BFFA1006C2E5D /* Trade */,
+				51FDE2752B0BFB4B006C2E5D /* Top */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		515199AE2B0BCDCD008538FB /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				515199AF2B0BCDE3008538FB /* LaunchView.swift */,
+				515199BA2B0BD4A7008538FB /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		515199BF2B0BDD06008538FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				515199C22B0BDD3B008538FB /* RoundedProgressView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		51FDE2642B0BF02F006C2E5D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				51FDE2672B0BF05E006C2E5D /* LoadingManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		51FDE26A2B0BF0AB006C2E5D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				51FDE26B2B0BF0F1006C2E5D /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		51FDE2752B0BFB4B006C2E5D /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				51FDE2772B0BFB7F006C2E5D /* TopView.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		51FDE27A2B0BFFA1006C2E5D /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				51FDE27B2B0BFFBE006C2E5D /* TradeView.swift */,
+			);
+			path = Trade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +259,7 @@
 			files = (
 				5151999D2B0BC44C008538FB /* Inter-SemiBold.ttf in Resources */,
 				515199892B0BC12D008538FB /* Preview Assets.xcassets in Resources */,
+				515199BB2B0BD4A8008538FB /* LaunchScreen.storyboard in Resources */,
 				515199862B0BC12D008538FB /* Assets.xcassets in Resources */,
 				515199A92B0BC992008538FB /* Localizable.strings in Resources */,
 				5151999B2B0BC44C008538FB /* Inter-Bold.ttf in Resources */,
@@ -195,9 +275,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515199842B0BC12B008538FB /* ContentView.swift in Sources */,
 				515199A42B0BC776008538FB /* Resource+SwiftUI.swift in Sources */,
+				51FDE26C2B0BF0F1006C2E5D /* TabBarView.swift in Sources */,
 				515199822B0BC12B008538FB /* TradersApp.swift in Sources */,
+				51FDE27C2B0BFFBE006C2E5D /* TradeView.swift in Sources */,
+				51FDE2682B0BF05E006C2E5D /* LoadingManager.swift in Sources */,
+				51FDE2782B0BFB7F006C2E5D /* TopView.swift in Sources */,
+				51FDE2712B0BF73E006C2E5D /* AppDelegate.swift in Sources */,
+				515199C32B0BDD3B008538FB /* RoundedProgressView.swift in Sources */,
+				515199B02B0BCDE3008538FB /* LaunchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Traders/Traders.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Traders/Preview Content\"";
@@ -349,9 +436,11 @@
 				INFOPLIST_FILE = Traders/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Traders/Traders.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Traders/Preview Content\"";
@@ -378,9 +468,11 @@
 				INFOPLIST_FILE = Traders/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

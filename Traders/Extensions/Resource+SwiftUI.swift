@@ -14,6 +14,16 @@ extension FontResource {
     }
 }
 
+extension StringResource {
+    var localizedStringKey: LocalizedStringKey {
+        LocalizedStringKey(key.description)
+    }
+
+    var text: Text {
+        Text(localizedStringKey)
+    }
+}
+
 extension ColorResource {
     var color: Color {
         Color(name)

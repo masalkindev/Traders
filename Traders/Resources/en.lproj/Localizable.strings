@@ -6,5 +6,12 @@
   
 */
 
+// TabBar
+"tab_trade_title" = "Trade";
+"tab_top_title" = "Top";
+
+// Trade
+"trade_tilte" = "Trade";
+
 // Top
 "top_tilte" = "TOP 10 Traders";
