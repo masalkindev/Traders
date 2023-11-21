@@ -12,6 +12,11 @@
 
 // Trade
 "trade_tilte" = "Trade";
+"trade_balance" = "Balance";
+"trade_timer" = "Timer";
+"trade_investment" = "Investment";
+"trade_sell" = "Sell";
+"trade_buy" = "Buy";
 
 // Top
 "top_tilte" = "TOP 10 Traders";

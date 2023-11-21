@@ -16,14 +16,13 @@ struct TopView: View {
             R.color.bgMain.color
                 .edgesIgnoringSafeArea(.all)
             ScrollView {
-            
                 LazyVStack(spacing: 0) {
                     TraderListHeaderView()
                     ForEach(viewModel.traderRows) { row in
                         TraderRowView(row: row)
                     }
                 }
-                .padding(.vertical, 20)
+                .padding(.vertical, 14)
                 .animation(.default)
             }
             .padding(.horizontal, 12)
