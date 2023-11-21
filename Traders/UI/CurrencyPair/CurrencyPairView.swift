@@ -11,7 +11,7 @@ struct CurrencyPairView: View {
     
     @EnvironmentObject private var tradeViewModel: TradeViewModel
     
-    @StateObject var viewModel = CurrencyPairViewModel()
+    @StateObject var viewModel: CurrencyPairViewModel
     
     @Environment(\.presentationMode) var presentation
     
@@ -28,7 +28,7 @@ struct CurrencyPairView: View {
                 LazyVGrid(columns: gridItemLayout, spacing: 20) {
                     ForEach(viewModel.curencyPairGrids) { row in
                         Button {
-                            tradeViewModel.selectCurency(pair: row.pair)
+                            tradeViewModel.selectCurency(pair: row.pair, pairId: row.id)
                             presentation.wrappedValue.dismiss()
                         } label: {
                             CurrencyPairGrigView(row: row)
@@ -56,6 +56,6 @@ struct CurrencyPairView: View {
 
 struct CurrencyPairView_Previews: PreviewProvider {
     static var previews: some View {
-        CurrencyPairView()
+        CurrencyPairView(viewModel: CurrencyPairViewModel(selectedId: 0))
     }
 }

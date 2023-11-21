@@ -8,5 +8,6 @@
 import Foundation
 
 struct CurencyPairModel {
+    let id: Int
     let value: String
 }

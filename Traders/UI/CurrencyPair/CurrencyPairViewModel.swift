@@ -15,17 +15,23 @@ class CurrencyPairViewModel: ObservableObject {
     
     private var curencyPairSource: [CurencyPairModel] = []
     
-    init() {
-        
+    private var selectedId: Int
+    
+    init(selectedId: Int) {
+        self.selectedId = selectedId
         for index in 0..<14 {
+            if index == 0 {
+                curencyPairSource.append(CurencyPairModel(id: 0, value: "GPB/USD"))
+                continue
+            }
             let value = Int.random(in: 1...10) % (index + 1) > 2 ? "EUR/USD" : "GPB/USD"
-            curencyPairSource.append(CurencyPairModel(value: value))
+            curencyPairSource.append(CurencyPairModel(id: index, value: value))
         }
     }
     
     func fetchCurencyPairs() {
         curencyPairGrids = curencyPairSource.enumerated().map({
-            CurrencyPairGrig(id: $0, pair: $1.value, selected: $0 == 1)
+            CurrencyPairGrig(id: $1.id, pair: $1.value, selected: $1.id == selectedId)
         })
     }
 }

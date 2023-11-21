@@ -44,8 +44,13 @@ struct TradeView: View {
                 }
                 VStack(spacing: 0) {
                     NavigationLink {
-                        CurrencyPairView()
-                            .environmentObject(viewModel)
+                        CurrencyPairView(
+                            viewModel:
+                                CurrencyPairViewModel(
+                                    selectedId: viewModel.currencyPairId
+                                )
+                        )
+                        .environmentObject(viewModel)
                     } label: {
                         TradeCurrencyView(currency: viewModel.currencyPair)
                     }

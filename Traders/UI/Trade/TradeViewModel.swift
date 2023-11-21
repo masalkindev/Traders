@@ -15,9 +15,11 @@ class TradeViewModel: ObservableObject {
     @Published var isLoading: Bool = true
     @Published var chartUrl: String = "https://www.tradingview.com/chart/?symbol=NASDAQ%3AGBP"
     @Published var currencyPair: String = "GPB/USD"
+    var currencyPairId: Int = 0
     
-    func selectCurency(pair: String) {
+    func selectCurency(pair: String, pairId: Int) {
         currencyPair = pair
+        currencyPairId = pairId
         if pair == "GPB/USD" {
             chartUrl = "https://www.tradingview.com/chart/?symbol=NASDAQ%3AGBP"
         } else {
