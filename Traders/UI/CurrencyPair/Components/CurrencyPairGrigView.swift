@@ -23,8 +23,6 @@ struct CurrencyPairGrigView: View {
             Text(row.pair)
                 .font(R.font.interSemiBold.font(size: 14))
                 .foregroundColor(R.color.textPrimary.color)
-                .padding(.leading, 20)
-                .padding(.top, 8)
             Spacer()
         }
         .frame(height: 54)
