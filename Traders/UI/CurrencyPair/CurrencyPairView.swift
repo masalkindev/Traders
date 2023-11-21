@@ -15,7 +15,10 @@ struct CurrencyPairView: View {
     
     @Environment(\.presentationMode) var presentation
     
-    private let gridItemLayout = [GridItem(.flexible()), GridItem(.flexible())]
+    private let gridItemLayout = [
+        GridItem(.flexible(), spacing: 20),
+        GridItem(.flexible(), spacing: 20)
+    ]
     
     var body: some View {
         ZStack() {
