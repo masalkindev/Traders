@@ -64,7 +64,7 @@ class TopViewModel: ObservableObject {
     private func updateTraders() {
         
         for index in 0..<tradersSource.count {
-            if Int.random(in: 1...10) % 5 > 2 {
+            if Int.random(in: 1...10) % (index + 1) > 2 {
                 break
             }
             tradersSource[index].profit = tradersSource[index].profitBased + Int.random(in: -150...50)

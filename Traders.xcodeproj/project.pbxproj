@@ -20,6 +20,7 @@
 		515199B02B0BCDE3008538FB /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199AF2B0BCDE3008538FB /* LaunchView.swift */; };
 		515199BB2B0BD4A8008538FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515199BA2B0BD4A7008538FB /* LaunchScreen.storyboard */; };
 		515199C32B0BDD3B008538FB /* RoundedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515199C22B0BDD3B008538FB /* RoundedProgressView.swift */; };
+		51809BCD2B0CA08700F0783A /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51809BCC2B0CA08700F0783A /* BackButtonView.swift */; };
 		51983C512B0C79EC0067D4B9 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51983C502B0C79EC0067D4B9 /* TradeViewModel.swift */; };
 		51AB16612B0C8106007DD5F3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB16602B0C8106007DD5F3 /* WebView.swift */; };
 		51AB16672B0C8AFA007DD5F3 /* TradeBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB16662B0C8AFA007DD5F3 /* TradeBalanceView.swift */; };
@@ -27,6 +28,10 @@
 		51AB166C2B0C8C0D007DD5F3 /* TradeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB166B2B0C8C0D007DD5F3 /* TradeInputView.swift */; };
 		51AB166F2B0C92E9007DD5F3 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB166E2B0C92E9007DD5F3 /* UIApplication+Extensions.swift */; };
 		51AB16722B0C936E007DD5F3 /* TradeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB16712B0C936E007DD5F3 /* TradeButtonView.swift */; };
+		51AB16762B0C9630007DD5F3 /* CurrencyPairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB16752B0C9630007DD5F3 /* CurrencyPairView.swift */; };
+		51AB16792B0C963E007DD5F3 /* CurrencyPairViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB16782B0C963E007DD5F3 /* CurrencyPairViewModel.swift */; };
+		51AB167C2B0C9804007DD5F3 /* CurrencyPairGrigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB167B2B0C9804007DD5F3 /* CurrencyPairGrigView.swift */; };
+		51AB167F2B0C9901007DD5F3 /* CurencyPairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AB167E2B0C9901007DD5F3 /* CurencyPairModel.swift */; };
 		51FDE2682B0BF05E006C2E5D /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2672B0BF05E006C2E5D /* LoadingManager.swift */; };
 		51FDE26C2B0BF0F1006C2E5D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE26B2B0BF0F1006C2E5D /* TabBarView.swift */; };
 		51FDE2712B0BF73E006C2E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDE2702B0BF73E006C2E5D /* AppDelegate.swift */; };
@@ -54,6 +59,7 @@
 		515199AF2B0BCDE3008538FB /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		515199BA2B0BD4A7008538FB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		515199C22B0BDD3B008538FB /* RoundedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedProgressView.swift; sourceTree = "<group>"; };
+		51809BCC2B0CA08700F0783A /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
 		51983C502B0C79EC0067D4B9 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
 		51AB16602B0C8106007DD5F3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		51AB16662B0C8AFA007DD5F3 /* TradeBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeBalanceView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 		51AB166B2B0C8C0D007DD5F3 /* TradeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeInputView.swift; sourceTree = "<group>"; };
 		51AB166E2B0C92E9007DD5F3 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		51AB16712B0C936E007DD5F3 /* TradeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeButtonView.swift; sourceTree = "<group>"; };
+		51AB16752B0C9630007DD5F3 /* CurrencyPairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairView.swift; sourceTree = "<group>"; };
+		51AB16782B0C963E007DD5F3 /* CurrencyPairViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairViewModel.swift; sourceTree = "<group>"; };
+		51AB167B2B0C9804007DD5F3 /* CurrencyPairGrigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairGrigView.swift; sourceTree = "<group>"; };
+		51AB167E2B0C9901007DD5F3 /* CurencyPairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurencyPairModel.swift; sourceTree = "<group>"; };
 		51FDE2672B0BF05E006C2E5D /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
 		51FDE26B2B0BF0F1006C2E5D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		51FDE2702B0BF73E006C2E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +175,7 @@
 				51FDE26A2B0BF0AB006C2E5D /* TabBar */,
 				51FDE27A2B0BFFA1006C2E5D /* Trade */,
 				51FDE2752B0BFB4B006C2E5D /* Top */,
+				51AB16742B0C9609007DD5F3 /* CurrencyPair */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -184,6 +195,7 @@
 				515199C22B0BDD3B008538FB /* RoundedProgressView.swift */,
 				51FDE28D2B0C1C5B006C2E5D /* RoundedCorners.swift */,
 				51AB16602B0C8106007DD5F3 /* WebView.swift */,
+				51809BCC2B0CA08700F0783A /* BackButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -204,6 +216,24 @@
 				51AB16682B0C8B7F007DD5F3 /* TradeCurrencyView.swift */,
 				51AB166B2B0C8C0D007DD5F3 /* TradeInputView.swift */,
 				51AB16712B0C936E007DD5F3 /* TradeButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		51AB16742B0C9609007DD5F3 /* CurrencyPair */ = {
+			isa = PBXGroup;
+			children = (
+				51AB167A2B0C9655007DD5F3 /* Components */,
+				51AB16782B0C963E007DD5F3 /* CurrencyPairViewModel.swift */,
+				51AB16752B0C9630007DD5F3 /* CurrencyPairView.swift */,
+			);
+			path = CurrencyPair;
+			sourceTree = "<group>";
+		};
+		51AB167A2B0C9655007DD5F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				51AB167B2B0C9804007DD5F3 /* CurrencyPairGrigView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -248,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				51FDE2842B0C0569006C2E5D /* TraderModel.swift */,
+				51AB167E2B0C9901007DD5F3 /* CurencyPairModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,14 +369,19 @@
 				515199A42B0BC776008538FB /* Resource+SwiftUI.swift in Sources */,
 				51AB16612B0C8106007DD5F3 /* WebView.swift in Sources */,
 				51FDE26C2B0BF0F1006C2E5D /* TabBarView.swift in Sources */,
+				51AB167F2B0C9901007DD5F3 /* CurencyPairModel.swift in Sources */,
 				515199822B0BC12B008538FB /* TradersApp.swift in Sources */,
 				51983C512B0C79EC0067D4B9 /* TradeViewModel.swift in Sources */,
 				51FDE28A2B0C07AF006C2E5D /* TraderListHeaderView.swift in Sources */,
 				51FDE2852B0C0569006C2E5D /* TraderModel.swift in Sources */,
+				51AB16792B0C963E007DD5F3 /* CurrencyPairViewModel.swift in Sources */,
+				51AB167C2B0C9804007DD5F3 /* CurrencyPairGrigView.swift in Sources */,
 				51AB16722B0C936E007DD5F3 /* TradeButtonView.swift in Sources */,
 				51FDE27C2B0BFFBE006C2E5D /* TradeView.swift in Sources */,
+				51AB16762B0C9630007DD5F3 /* CurrencyPairView.swift in Sources */,
 				51AB16672B0C8AFA007DD5F3 /* TradeBalanceView.swift in Sources */,
 				51FDE28E2B0C1C5B006C2E5D /* RoundedCorners.swift in Sources */,
+				51809BCD2B0CA08700F0783A /* BackButtonView.swift in Sources */,
 				51AB166F2B0C92E9007DD5F3 /* UIApplication+Extensions.swift in Sources */,
 				51FDE2682B0BF05E006C2E5D /* LoadingManager.swift in Sources */,
 				51FDE2782B0BFB7F006C2E5D /* TopView.swift in Sources */,

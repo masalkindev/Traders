@@ -24,7 +24,7 @@ struct TradeCurrencyView: View {
             .background(R.color.bgButton.color)
             .cornerRadius(radius: 12)
             
-            R.image.arrowLeft.image
+            R.image.arrowRight.image
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 24, height: 24)

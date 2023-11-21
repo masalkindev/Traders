@@ -24,6 +24,7 @@ struct TopView: View {
                 }
                 .padding(.vertical, 14)
                 .animation(.default)
+                .transition(.opacity)
             }
             .padding(.horizontal, 12)
         }

@@ -25,3 +25,6 @@
 "top_column_name" = "Name";
 "top_column_deposit" = "Deposit";
 "top_column_profit" = "Profit";
+
+// CurrencyPair
+"currency_pair_title" = "Currency pair";

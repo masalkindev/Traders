@@ -43,7 +43,12 @@ struct TradeView: View {
                     )
                 }
                 VStack(spacing: 0) {
-                    TradeCurrencyView(currency: viewModel.currencyPair)
+                    NavigationLink {
+                        CurrencyPairView()
+                            .environmentObject(viewModel)
+                    } label: {
+                        TradeCurrencyView(currency: viewModel.currencyPair)
+                    }
                     HStack(spacing: 11) {
                         TradeInputView(title: R.string.localizable.trade_timer(), text: $timerText)
                         TradeInputView(title: R.string.localizable.trade_investment(), text: $investmentText)
@@ -73,8 +78,6 @@ struct TradeView: View {
                 .padding(.top, 16)
                 .padding(.bottom, 12)
             }
-            
-    
         }
         .navigationTitle(R.string.localizable.trade_tilte())
         .navigationBarTitleDisplayMode(.inline)

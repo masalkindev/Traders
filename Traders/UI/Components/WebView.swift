@@ -27,7 +27,10 @@ struct WebView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        
+        uiView.stopLoading()
+        if let url = URL(string: url) {
+            uiView.load(URLRequest(url: url))
+        }
     }
 
     class Coordinator: NSObject, WKNavigationDelegate {
