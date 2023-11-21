@@ -15,16 +15,11 @@ struct TopView: View {
         ZStack() {
             R.color.bgMain.color
                 .edgesIgnoringSafeArea(.all)
-            ScrollView {
-                LazyVStack(spacing: 0) {
-                    TraderListHeaderView()
-                    ForEach(viewModel.traderRows) { row in
-                        TraderRowView(row: row)
-                    }
+            VStack(spacing: 0) {
+                TraderListHeaderView()
+                ForEach(viewModel.traderRows) { row in
+                    TraderRowView(row: row)
                 }
-                .padding(.vertical, 14)
-                .animation(.default)
-                .transition(.opacity)
             }
             .padding(.horizontal, 12)
         }
